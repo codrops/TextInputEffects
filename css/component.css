@@ -153,6 +153,10 @@
 	pointer-events: none;
 }
 
+.input__label-content--hoshi {
+	position: absolute;
+}
+
 .input__label--hoshi::before,
 .input__label--hoshi::after {
 	content: '';
@@ -205,13 +209,13 @@
 	}
 	51% {
 		opacity: 0;
-		-webkit-transform: translate3d(-1em, -2.1em, 0);
-		transform: translate3d(-1em, -2.1em, 0);
+		-webkit-transform: translate3d(-1em, -40%, 0);
+		transform: translate3d(-1em, -40%, 0);
 	}
 	100% {
 		opacity: 1;
-		-webkit-transform: translate3d(0, -2.1em, 0);
-		transform: translate3d(0, -2.1em, 0);
+		-webkit-transform: translate3d(0, -40%, 0);
+		transform: translate3d(0, -40%, 0);
 	}
 }
 
@@ -223,13 +227,13 @@
 	}
 	51% {
 		opacity: 0;
-		-webkit-transform: translate3d(-1em, -2.1em, 0);
-		transform: translate3d(-1em, -2.1em, 0);
+		-webkit-transform: translate3d(-1em, -40%, 0);
+		transform: translate3d(-1em, -40%, 0);
 	}
 	100% {
 		opacity: 1;
-		-webkit-transform: translate3d(0, -2.1em, 0);
-		transform: translate3d(0, -2.1em, 0);
+		-webkit-transform: translate3d(0, -40%, 0);
+		transform: translate3d(0, -40%, 0);
 	}
 }
 
