@@ -832,7 +832,7 @@
 }
 
 .input__field--hideo {
-	padding-left: 3em;
+	padding: 0.85em 0.85em 0.85em 3em;
 	width: 100%;
 	background: transparent;
 	-webkit-transform: translate3d(1em, 0, 0);
