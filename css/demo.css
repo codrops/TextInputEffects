@@ -30,7 +30,7 @@ a {
 }
 
 a:hover, a:focus {
-	color: #74777b;
+	color: #404d5b;
 }
 
 .container {
@@ -60,9 +60,10 @@ a:hover, a:focus {
 .bgcolor-3 { background: #e8e8e8; }
 .bgcolor-4 { background: #2f3238; color: #fff; }
 .bgcolor-5 { background: #df6659; color: #521e18; }
-.bgcolor-6 { background: #2fa8ec; }
+.bgcolor-6 { background: #2fa8ec; color: #fff;}
 .bgcolor-7 { background: #d0d6d6; }
 .bgcolor-8 { background: #3d4444; color: #fff; }
+.bgcolor-9 { background: #8781bd; color: #fff; }
 
 body .nomargin-bottom {
 	margin-bottom: 0;
@@ -78,15 +79,31 @@ body .nomargin-bottom {
 	font-weight: 800;
 	font-size: 4em;
 	line-height: 1;
-	margin-bottom: 0;
+	margin: 0.25em 0 0;
 }
 
 .codrops-header h1 span {
 	display: block;
 	font-size: 50%;
 	font-weight: 400;
-	padding: 0.325em 0 0.5em 0;
+	padding: 0.325em 0 1em 0;
 	color: #c3c8cd;
+}
+
+/* Demos nav */
+.codrops-demos a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 0.85em;
+	display: inline-block;
+	margin: 0 1em;
+	font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.codrops-demos a.current-demo {
+	border-bottom: 2px solid;
+	color: #404d5b;
 }
 
 /* Top Navigation Style */
