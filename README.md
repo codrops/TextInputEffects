@@ -3,7 +3,7 @@ Text Input Effects
 
 Simple styles and effects for enhancing text input interactions.
 
-[Article on Codrops](http://tympanus.net/codrops/?p=21991)
+[Article on Codrops](http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/)
 
 [Demo](http://tympanus.net/Development/TextInputEffects/)
 
